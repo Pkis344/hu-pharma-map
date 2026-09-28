@@ -1,0 +1,22 @@
+# OSRM road graph (regenerated locally via start-osrm.bat; ~900 MB, not for git)
+osrm-data/
+*.osm.pbf
+*.osrm
+*.osrm.*
+_built.ok
+
+# Excel/OneDrive lock files
+~$*.xlsx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+
+# Working backups & logs
+_backup*.xlsx
+precompute_progress.txt
