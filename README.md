@@ -13,6 +13,10 @@ Opens straight to the dashboard. It reads the bundled Excel data on load, so not
 install. Real-road routing uses the public OSRM demo server where available and otherwise
 falls back to precomputed road geometry + straight-line estimates.
 
+!!!NOTE!!!
+Realtime route recalculation does not work with the simple demo link, since it relies on a locally hosted OSRM Server
+!!!NOTE!!!
+
 ## What it does
 
 - **Dashboard** — all clients & warehouses on the map, filterable by revenue and type.
